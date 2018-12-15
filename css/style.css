@@ -30,6 +30,10 @@ p{
 	background: url('../img/bg/bg.png') no-repeat;
 	background-size: cover;
 }
+.navbar{
+	width: 90%;
+	margin: 0 auto;
+}
 .dropdown-toggle::after{
 	display: none;
 }
@@ -45,35 +49,124 @@ p{
 .jumbotron{
 	background: none;
 	text-align: center;
+	padding-top: 125px;
+}
+.jumbotron h1{
+	box-sizing: border-box;
+	max-width: 45%;
+	margin: 0 auto;
+	border: 10px solid #60606e;
+	padding: 21px 38px;
+}
+.jumbotrone h2{
+
+}
+.jumbotron h3{
+	max-width: 5rem;
+	margin: 0 auto;
+	padding: 3px 5px;
+	background-color: #7beec7;
 }
 .jumbotron p{
-	max-width: 555px;
-	margin: 30px auto 0 auto;
+	max-width: 50%;
+	margin: 30px auto 125px auto;
 	font-size: 16px;
+}
+.header-row{
+	margin:0 0 280px 0;
 
 }
+
+.header-img{
+	position: absolute;
+	max-height: 400px;
+}
+.my-choose{
+	text-align: center;
+	margin-bottom: 150px;
+}
+.my-choose p{
+	padding-bottom: 120px;
+}
+.my-choose__categories{
+	width: 90%;
+	padding: 0;
+}
+.choose-img{
+	height: auto;
+}
+.left-1 p{
+	padding: 0;
+	text-align: left;
+}
+.img-section{
+	height: 70px;
+	vertical-align: 0;
+}
+.right-1 p{
+	padding: 0;
+	text-align: left;
+}
+.left-2 p{
+	padding: 0;
+	text-align: left;
+}
+.right-2 p{
+	padding: 0;
+	text-align: left;
+}
+.my-portfolio{
+	text-align: center;
+	margin-bottom: 150px;
+}
+.form{
+	background-color: #7beec7;
+	margin-bottom: 50px;
+}
+.get-in-touch{
+	margin-top: 50px;
+	color: white;
+}
+.get-in-touch h2{
+	line-height: 1.5;
+}
+.my-form-btn{
+	margin-top: 30px;
+	background-color: white;
+	color: #7beec7;
+	border: none;
+	border-radius: 0;
+}
+.my-form{
+	width: 555px;
+	height: 230px;
+	background-color: white;
+	margin: 50px 0;
+	padding: 20px 25px 0 25px;
+}
+.my-form h2{
+	line-height: 1.5;
+	font-size: 24px;
+}
+.my-form p{
+	font-size: 16px;
+}
+
 @media screen and (max-width: 992px) {
-	.dropdown{
-
-	}
-	.dropdown-menu{
-
-		top: 10px;
-
-		min-width: 100%;
-		min-height: 100%;
 
 
-
-	}
 	.dropdown-item{
-		background: white;
 		text-align: center;
 		padding: 0;
+		border: 1px solid white;
+		padding: 1rem 0;
+		background: white;
 	}
+
 	.dropdown-toggle{
-		float:right;
+		float: right;
 	}
+
 	.show{
 		margin: 0 !important;
 		position: absolute;
@@ -81,6 +174,35 @@ p{
 		right: 0;
 		bottom: 0;
 		left: 0;
+		padding-top: 3rem ;
 
+	}
+
+	h1{
+		font-size: 32px;
+	}
+	h2{
+		font-size: 18px;
+	}
+	.jumbotron h1{
+		border: none;
+		padding: 0;
+	}
+	.jumbotron p{
+		max-width: 50%;
+		margin: 30px auto 0 auto;
+		font-size: 12px;
+
+	}
+}
+@media screen and (max-width: 576px){
+	h1{
+		font-size: 28px;
+	}
+	h3{
+		font-size: 14px;
+	}
+	.jumbotron h3{
+		max-width: 4rem;
 	}
 }
